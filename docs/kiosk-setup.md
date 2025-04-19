@@ -8,7 +8,7 @@ nav_order: 3
 
 ## Overview
 
-The IDLE Press Arcade Kiosk package provides a complete kiosk mode setup for running games or applications in a controlled, automated environment on Ubuntu 24.04 LTS. The scripts create a [GNOME Kiosk](https://help.gnome.org/admin/system-admin-guide/stable/lockdown-single-app-mode.html.en) session which 'provides a desktop environment suitable for fixed purpose, or single application deployments like wall displays and point-of-sale systems' and also happens to work great for creating an authentic retro-arcade experience. The system includes both kiosk mode for running your game and operator mode for maintenance.
+[The IDLE Press Arcade Kiosk](https://github.com/rocket5/idle-press-arcade-kiosk) package provides a complete kiosk mode setup for running games or applications in a controlled, automated environment on Ubuntu 24.04 LTS. The scripts create a [GNOME Kiosk](https://help.gnome.org/admin/system-admin-guide/stable/lockdown-single-app-mode.html.en) session which 'provides a desktop environment suitable for fixed purpose, or single application deployments like wall displays and point-of-sale systems' and also happens to work great for creating an authentic retro-arcade experience. The system includes both kiosk mode for running your game and operator mode for maintenance.
 
 This project is based on the [arcade-build](https://github.com/lazzarello/arcade-builds) project which relies on Canonical Snapcraft as a solution for easily distributing updates to cabinet host PC. The downside to that approach is  that it requires the game developer to package their games and post them to the Snap Store where they can be downloaded by Linux users for free. 
 
@@ -54,7 +54,7 @@ That should be all you need to do in `your-game-folder` for now, so close the te
 
 ### Set Up Kiosk Mode
 
-Download the latest [Kiosk Mode Release](https://github.com/rocket5/indie-darling-arcade)  and extract the .zip on the Ubuntu desktop. Right click the `kiosk-setup` folder, select "Open in Terminal" from the menu.
+Download the latest [Kiosk Mode Release](https://github.com/rocket5/idle-press-arcade-kiosk/releases)  and extract the .zip on the Ubuntu desktop. Right click the extracted folder (eg. `idle-press-arcade-kiosk-1.0`), select "Open in Terminal" from the menu.
 
    ```bash
    # Make the setup script executable
@@ -89,7 +89,7 @@ The system should boot directly to your game any time you turn on the PC.
 - Automatic return to kiosk mode after reboot
 
 ### Landscape
-[Landscape](https://ubuntu.com/landscape) is Canonical's systems management tool designed for Ubuntu, which allows remote monitoring and management of Ubuntu systems. The script installs the Landscape client via Snap. Landscape allows remote monitoring of kiosk health without physical access, centralized management of multiple kiosks, alerts for system issues, ability to push updates remotely. However you would need to setup a Landscape account and the feature requires an Ubuntu Pro subscription. Full Landscape setup is beyond the scope of this document.
+A feature that might be useful for arcade opperators is [Landscape](https://ubuntu.com/landscape) - Canonical's systems management tool designed for Ubuntu, which allows remote monitoring and management of Ubuntu systems. The script installs the Landscape client via Snap. Landscape allows remote monitoring of kiosk health without physical access, centralized management of multiple kiosks, alerts for system issues, ability to push updates remotely. However you would need to setup a Landscape account and the feature requires an Ubuntu Pro subscription. Full Landscape setup is beyond the scope of this document.
 
 ## Usage
 
@@ -106,7 +106,7 @@ The system should boot directly to your game any time you turn on the PC.
 ### Exiting Operator Mode
 - Double-click the "Exit Operator Mode" shortcut on the desktop
 - System will reboot and return to kiosk mode
-- Alternatively, run `operator-mode off` in the terminal
+- Alternatively, press Ctrl + Alt + T and then run `operator-mode off` in the terminal
 
 ## Maintenance
 

@@ -1,5 +1,5 @@
 title: IDLE Press Arcade
-description: IDLE Press Arcade documentation.
+description: IDLE Press Arcade documentation
 theme: just-the-docs
 
 url: https://rocket5.ca
@@ -28,14 +28,7 @@ callouts:
     color: green
 
 aux_links:
-  Rocket 5 Studios: https://rocket5.ca
+  by Rocket 5: https://rocket5.ca
 
 # Color scheme supports "light" (default) and "dark"
-#color_scheme: dark
-
-# External navigation links
-nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
-    hide_icon: false # set to true to hide the external link icon - defaults to false
-    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
+color_scheme: dark
