@@ -1,10 +1,13 @@
 ---
 title: Kiosk Setup
 layout: default
-nav_order: 3
+nav_order: 4
 ---
 
 # Kiosk Setup
+
+**Audience: IDLE Press Arcade Operators**
+{: .label .label-yellow }
 
 ## Overview
 

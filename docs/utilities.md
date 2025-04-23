@@ -5,6 +5,9 @@ nav_order: 5
 ---
 # IDLE Press Arcade Utilities
 
+**Audience: IDLE Press Arcade Operators**
+{: .label .label-yellow }
+
 ## Overview
 
 The IDLE Press Utilities app provides Video Calibration and Input Testing tools that are useful for calibrating and debugging hardware on the arcade cabinet Ubuntu PC.

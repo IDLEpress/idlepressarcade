@@ -1,12 +1,15 @@
 ---
-title: Ubuntu Installation
+title: OS Installation
 layout: default
-nav_order: 2
+nav_order: 3
 ---
-# Ubuntu Installation
+# OS Installation
+
+**Audience: IDLE Press Arcade Operators**
+{: .label .label-yellow }
 
 ## Overview
-You will need to install Ubuntu on your arcade PC because Kiosk mode is made for running games or applications in a controlled, automated environment on Ubuntu 24.04 LTS. The following steps will guide you through the installation process.
+Installing Ubuntu 24.04 LTS on your arcade PC is required in order to utilize [Kiosk mode](kiosk-setup.html) which is designed to run Linux games or applications in a controlled and automated environment. Follow these steps to complete the installation process.
 
 ### Creating an ISO
 

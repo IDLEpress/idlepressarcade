@@ -1,15 +1,19 @@
 ---
 title: Developer Guide
 layout: default
-nav_order: 4
+nav_order: 2
 ---
 
 # Developer Guide
+
+**Audience: Game Developers**
+{: .label .label-yellow }
 
 ## Operator Menu
 
 The Operator Menu provides a UI for controlling certain specific game settings. Since this is an arcade game, the user doesn't have access to the settings menu. Instead the arcade operator can access the Operator Menu by pressing a non-user-accessible button located inside the cabinet.
 
+### Coins To Play
 Number of coins required to player, “Price Settings” options
 - Free Play (default)
 - $.25/1 credit
@@ -23,6 +27,8 @@ Number of coins required to player, “Price Settings” options
 - $2/ 3 credits
 - $3/ 4 credits
 - $3/ 5 credits
+
+---
 
 “Number of Lives” per credit, if applicable
 - Alternatively, length of time of play if applicable
