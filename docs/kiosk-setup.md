@@ -43,6 +43,9 @@ Our implementation removes the Snap Store dependency from the setup process but 
 {: .note }
 At this time, the kiosk mode setup script only works with Linux builds. 
 
+{: .tip }
+For simple kiosk mode setup without a _real_ game, download this [Arcade Test Game](https://drive.google.com/file/d/19Q-2nPD1Y_5y5RR-a7lYMd0gQACwGwtz/view?usp=drive_link) and then continue following the steps below.
+
 Copy your built project folder into the `/home/user` folder so that your path ends up being something like `/home/user/your-game-folder`. To access the user folder on the Ubuntu desktop, double-click the folder icon in the dock.
 
 Right-click on `your-game-folder` and then select "Open in Terminal" from the drop-down menu. 
