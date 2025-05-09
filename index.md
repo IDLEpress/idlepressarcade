@@ -17,3 +17,7 @@ The documentation covers:
 - **Ubuntu Installation**: Step-by-step instructions for setting up Ubuntu 24.04 LTS on arcade cabinet hardware
 - **Kiosk Setup**: Complete configuration for running games in a controlled arcade environment, including automatic boot, operator mode access, and maintenance procedures
 - **Utilities**: Tools for video calibration and input testing, including IPAC-2 control interface configuration
+
+# Hello Word
+- Bullet 1
+- Bullet 2
