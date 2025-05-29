@@ -20,7 +20,7 @@ This repository contains documentation and scripts for setting up arcade cabinet
 
 ## Getting Started
 
-1. Visit the [documentation website](https://rocket5.ca/idlepressarcade/) for complete instructions
+1. Visit the [documentation website](https://idlepress.github.io/idlepressarcade/) for complete instructions
 2. Review the developer guide to ensure your game meets arcade cabinet requirements
 3. Follow the kiosk setup instructions to configure your arcade cabinet
 
