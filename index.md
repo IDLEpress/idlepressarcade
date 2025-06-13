@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-![Indie Darling Logo](assets/images/id-logo.png)
+![IDLE Press Logo](assets/images/idle-logo.png)
 
 # IDLE Press Arcade Developer Documentation
 
@@ -18,6 +18,3 @@ The documentation covers:
 - **Kiosk Setup**: Complete configuration for running games in a controlled arcade environment, including automatic boot, operator mode access, and maintenance procedures
 - **Utilities**: Tools for video calibration and input testing, including IPAC-2 control interface configuration
 
-# Hello Word
-- Bullet 1
-- Bullet 2
