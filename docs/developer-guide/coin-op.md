@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Coin and Bill Acceptance
 Game must register triggers as a quarter/token received.
-- Use TBD button
+- See the Utilities App section for full key mappings
 
 Bill Acceptors are configured to output 4 triggers per $1.
 

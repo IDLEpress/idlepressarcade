@@ -27,7 +27,7 @@ Number of coins required to player, “Price Settings” options
 ---
 
 ## Lives and Awards
-Settings for number of lives and game awards (if applicable).
+
 
 **Number of Lives**
 - per credit
@@ -45,15 +45,8 @@ All game should have audio settings.
 
 - Game Volume
 - Attract Mode Volume
-- A note that says “Please adjust audio volume using coin door buttons outside of this menu and adjust EQ on amp inside cabinet”
+- Music Mix (optional)
 
----
-
-## Score resetting
-All games with high score systems should also have a reset function.
-
-- Reset high scores
-- Reset settings to defaults
 
 ---
 
@@ -74,7 +67,14 @@ Ideally games should include various analytics.
 ---
 
 ## Difficult settings
-If applicable
+- If applicable
+
+___
+
+## Resets
+- Reset high scores
+- Clear all credits
+- Reset all settings to default
 
 ---
 
