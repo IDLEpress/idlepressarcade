@@ -4,11 +4,11 @@ layout: home
 nav_order: 1
 ---
 
-![IDLE Press Logo](assets/images/idle-logo.png)
+![IDLE Press Logo](assets/images/idle_logo_horiz.png)
 
-# IDLE Press Arcade Developer Documentation
+# IDLEpress Arcade Developer Documentation
 
-This guide provides comprehensive resources for game developers and arcade operators managing IDLE Press Arcade cabinets.
+This guide provides comprehensive resources for game developers and arcade operators managing IDLEpress Arcade cabinets.
 
 Game developers should refer to the [Developer Guide](docs/developer-guide.html) for details on how to modify their games to work in the IDLE Press Arcade environment. Developers may also want to refer to the [Kiosks Setup](docs/kiosk-setup.html) and [Utilities](docs/utilities.html) documentation for more information how to setup a local testing environment.
 
