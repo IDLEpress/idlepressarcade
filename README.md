@@ -17,6 +17,7 @@ This repository contains documentation and scripts for setting up arcade cabinet
 
 - Ubuntu 24.04 LTS for cabinet setup
 - Linux-compatible games
+- Windows-compatible games (launced via WINE)
 
 ## Getting Started
 
@@ -101,4 +102,4 @@ This project is licensed under the terms of the license included in the [LICENSE
 
 ## Credits
 
-Developed and maintained by [Rocket 5 Studios](https://rocket5.ca).
+Developed and maintained by [Rocket 5 Studios](https://rocket5.ca).  Further corrupted by C.Oza

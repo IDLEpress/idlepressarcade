@@ -21,7 +21,8 @@ Our implementation removes the Snap Store dependency from the setup process but 
 
 - Ubuntu 24.04 LTS
 - A user account named "user" (the script is configured for this username)
-- Your application/game executable built for Linux
+- Your application/game executable built for Linux (preferred) or a Windows .exe that WINE can launch
+- Installation of WINE if applicable
 - Root/sudo access for initial setup
 
 ## Package Contents
@@ -41,7 +42,7 @@ Our implementation removes the Snap Store dependency from the setup process but 
 ### Prepare Your Application
 
 {: .note }
-At this time, the kiosk mode setup script only works with Linux builds. 
+The kiosk mode was initially developed to only work with Linux builds, however there's a decent change WINE can operate the game.  Look online for instructions to installing WINE, often through scripts.  Verify that your game launches via terminal "wine /home/user/your-game-folder/your-game.exe" before setting up the kiosk.  Also because the .exe might be an installer.
 
 {: .tip }
 For simple kiosk mode setup without a _real_ game, download this [Arcade Test Game](https://drive.google.com/file/d/19Q-2nPD1Y_5y5RR-a7lYMd0gQACwGwtz/view?usp=drive_link) and then continue following the steps below.
