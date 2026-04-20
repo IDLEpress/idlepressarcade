@@ -42,7 +42,7 @@ Our implementation removes the Snap Store dependency from the setup process but 
 ### Prepare Your Application
 
 {: .note }
-The kiosk mode was initially developed to only work with Linux builds, however there's a decent change WINE can operate the game.  Look online for instructions to installing WINE, often through scripts.  Verify that your game launches via terminal "wine /home/user/your-game-folder/your-game.exe" before setting up the kiosk.  Also because the .exe might be an installer.
+The kiosk mode was initially developed to only work with Linux builds, however there's a decent chance WINE can operate the game.  Look online for instructions to installing WINE, often through scripts.  Verify that your game launches via terminal "wine /home/user/your-game-folder/your-game.exe" before setting up the kiosk.  Also because the .exe might be an installer and you want it to be a zip package.
 
 {: .tip }
 For simple kiosk mode setup without a _real_ game, download this [Arcade Test Game](https://drive.google.com/file/d/19Q-2nPD1Y_5y5RR-a7lYMd0gQACwGwtz/view?usp=drive_link) and then continue following the steps below.
@@ -158,10 +158,15 @@ System updates are disabled by default by the `autobuild.sh` script. To perform 
    ```bash
    journalctl -xe
    ```
-5. Check kiosk script:
+5. Check what application is aimed at in the kiosk script:
    ```bash
    cat ~/.local/bin/gnome-kiosk-script
    ```
+6. Change what path/app the kiosk script is aimed at:
+   ```bash
+   nano ~/.local/bin/gnome-kiosk-script
+   To save: ctrl + o, Enter, ctrl + x
+   ```   
 
 ### Operator Mode Not Working
 1. Verify the operator mode service:
