@@ -79,6 +79,22 @@ Download the latest [Kiosk Mode Release](https://github.com/rocket5/idle-press-a
 
 The system should boot directly to your game any time you turn on the PC.
 
+### Set Up Audio 
+
+   ```bash
+   sudo apt install pulseaudio-utils
+   ```
+
+Audio will play fine in the operator-mode, but if you boot the game and don't have it, do this.
+
+### Set Up i-pac2 Utilities if required
+
+Check the Katie Snow github
+https://github.com/katie-snow/Ultimarc-linux/blob/master/README.debbuild
+Install Python 
+sudo apt install python3-pip
+
+
 ## Features
 
 ### Kiosk Mode
@@ -166,6 +182,8 @@ System updates are disabled by default by the `autobuild.sh` script. To perform 
    ```bash
    nano ~/.local/bin/gnome-kiosk-script
    To save: ctrl + o, Enter, ctrl + x
+7. 
+
    ```   
 
 ### Operator Mode Not Working
