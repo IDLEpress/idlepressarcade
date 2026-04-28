@@ -11,7 +11,7 @@ nav_order: 4
 
 ## Overview
 
-[The IDLE Press Arcade Kiosk](https://github.com/rocket5/idle-press-arcade-kiosk) package provides a complete kiosk mode setup for running games or applications in a controlled, automated environment on Ubuntu 24.04 LTS. The scripts create a [GNOME Kiosk](https://help.gnome.org/admin/system-admin-guide/stable/lockdown-single-app-mode.html.en) session which 'provides a desktop environment suitable for fixed purpose, or single application deployments like wall displays and point-of-sale systems' and also happens to work great for creating an authentic retro-arcade experience. The system includes both kiosk mode for running your game and operator mode for maintenance.
+[The IDLE Press Arcade Kiosk](https://github.com/IDLEpress/arcade-kiosk) package provides a complete kiosk mode setup for running games or applications in a controlled, automated environment on Ubuntu 24.04 LTS. The scripts create a [GNOME Kiosk](https://help.gnome.org/admin/system-admin-guide/stable/lockdown-single-app-mode.html.en) session which 'provides a desktop environment suitable for fixed purpose, or single application deployments like wall displays and point-of-sale systems' and also happens to work great for creating an authentic retro-arcade experience. The system includes both kiosk mode for running your game and operator mode for maintenance.
 
 This project is based on the [arcade-build](https://github.com/lazzarello/arcade-builds) project which relies on Canonical Snapcraft as a solution for easily distributing updates to cabinet host PC. The downside to that approach is  that it requires the game developer to package their games and post them to the Snap Store where they can be downloaded by Linux users for free. 
 
@@ -42,7 +42,7 @@ Our implementation removes the Snap Store dependency from the setup process but 
 ### Prepare Your Application
 
 {: .note }
-The kiosk mode was initially developed to only work with Linux builds, however there's a decent change WINE can operate the game.  Look online for instructions to installing WINE, often through scripts.  Verify that your game launches via terminal "wine /home/user/your-game-folder/your-game.exe" before setting up the kiosk.  Also because the .exe might be an installer.
+The kiosk mode was initially developed to only work with Linux builds, however there's a decent chance WINE can operate the game.  Look online for instructions to installing WINE, often through scripts.  Verify that your game launches via terminal "wine /home/user/your-game-folder/your-game.exe" before setting up the kiosk.  Also because the .exe might be an installer and you want it to be a zip package.
 
 {: .tip }
 For simple kiosk mode setup without a _real_ game, download this [Arcade Test Game](https://drive.google.com/file/d/19Q-2nPD1Y_5y5RR-a7lYMd0gQACwGwtz/view?usp=drive_link) and then continue following the steps below.
@@ -78,6 +78,22 @@ Download the latest [Kiosk Mode Release](https://github.com/rocket5/idle-press-a
    ```
 
 The system should boot directly to your game any time you turn on the PC.
+
+### Set Up Audio 
+
+   ```bash
+   sudo apt install pulseaudio-utils
+   ```
+
+Audio will play fine in the operator-mode, but if you boot the game and don't have it, do this.
+
+### Set Up i-pac2 Utilities if required
+
+Check the Katie Snow github
+https://github.com/katie-snow/Ultimarc-linux/blob/master/README.debbuild
+Install Python 
+sudo apt install python3-pip
+
 
 ## Features
 
@@ -158,10 +174,17 @@ System updates are disabled by default by the `autobuild.sh` script. To perform 
    ```bash
    journalctl -xe
    ```
-5. Check kiosk script:
+5. Check what application is aimed at in the kiosk script:
    ```bash
    cat ~/.local/bin/gnome-kiosk-script
    ```
+6. Change what path/app the kiosk script is aimed at:
+   ```bash
+   nano ~/.local/bin/gnome-kiosk-script
+   To save: ctrl + o, Enter, ctrl + x
+7. 
+
+   ```   
 
 ### Operator Mode Not Working
 1. Verify the operator mode service:
