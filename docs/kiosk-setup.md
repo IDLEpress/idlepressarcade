@@ -11,7 +11,7 @@ nav_order: 4
 
 ## Overview
 
-[The IDLE Press Arcade Kiosk](https://github.com/rocket5/idle-press-arcade-kiosk) package provides a complete kiosk mode setup for running games or applications in a controlled, automated environment on Ubuntu 24.04 LTS. The scripts create a [GNOME Kiosk](https://help.gnome.org/admin/system-admin-guide/stable/lockdown-single-app-mode.html.en) session which 'provides a desktop environment suitable for fixed purpose, or single application deployments like wall displays and point-of-sale systems' and also happens to work great for creating an authentic retro-arcade experience. The system includes both kiosk mode for running your game and operator mode for maintenance.
+[The IDLE Press Arcade Kiosk](https://github.com/IDLEpress/arcade-kiosk) package provides a complete kiosk mode setup for running games or applications in a controlled, automated environment on Ubuntu 24.04 LTS. The scripts create a [GNOME Kiosk](https://help.gnome.org/admin/system-admin-guide/stable/lockdown-single-app-mode.html.en) session which 'provides a desktop environment suitable for fixed purpose, or single application deployments like wall displays and point-of-sale systems' and also happens to work great for creating an authentic retro-arcade experience. The system includes both kiosk mode for running your game and operator mode for maintenance.
 
 This project is based on the [arcade-build](https://github.com/lazzarello/arcade-builds) project which relies on Canonical Snapcraft as a solution for easily distributing updates to cabinet host PC. The downside to that approach is  that it requires the game developer to package their games and post them to the Snap Store where they can be downloaded by Linux users for free. 
 

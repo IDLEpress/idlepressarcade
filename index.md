@@ -10,7 +10,7 @@ nav_order: 1
 
 This guide provides comprehensive resources for game developers and arcade operators managing IDLEpress Arcade cabinets.
 
-Game developers should refer to the [Developer Guide](docs/developer-guide/) for details on how to modify their games to work in the IDLE Press Arcade environment. Developers may also want to refer to the [Kiosks Setup](docs/kiosk-setup.html) and [Utilities](docs/utilities.html) documentation for more information how to setup a local testing environment.
+Game developers should refer to the [Developer Guide](docs/developer-guide/) for details on how to modify their games to work in the IDLE Press Arcade environment. Developers may also want to refer to the [Kiosks Setup](docs/kiosk-setup) and [Utilities](docs/utilities) documentation for more information how to setup a local testing environment.
 
 The documentation covers:
 - **Developer Guide**: Essential information for creating arcade-ready games with operator menus, attract mode, coin-op functionality, and high score systems
